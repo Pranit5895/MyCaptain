@@ -25,5 +25,25 @@ public class Employee {
 		System.out.println("Employee Address = "+ address);
 	}
 
+	public static void main(String[] args) {
+
+		Employee e[] = new Employee[3];
+
+		for(int i=0; i<3; i++) {
+
+			e[i] = new Employee();
+			e[i].getInput();
+		}
+
+		System.out.println("Data Entered is : ");
+		
+		for(int i=0; i<3; i++) {
+			e[i].display();
+		}
+	}
+}
+
+
+                 
          
 
