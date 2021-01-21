@@ -10,4 +10,12 @@ public class Employee {
 	public void getInput() {
 
 		Scanner in = new Scanner(System.in);
+		System.out.println("Enter the Employee Name: ");
+		name = in.next();
+		System.out.println("Enter the year of joining: ");
+		year_of_joining = in.nextInt();
+		System.out.println("Enter the address of the employee: ");
+		address = in.next();
+	}
+
 
