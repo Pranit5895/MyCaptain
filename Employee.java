@@ -18,4 +18,12 @@ public class Employee {
 		address = in.next();
 	}
 
+	public void display() {
+		
+		System.out.println("Employee name = "+ name);
+		System.out.println("Employee year of joining = "+ year_of_joining);
+		System.out.println("Employee Address = "+ address);
+	}
+
+         
 
